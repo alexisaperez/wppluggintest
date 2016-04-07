@@ -1,0 +1,865 @@
+/* General CSS */
+/*NCOA User Profile colors*/
+.entry-content h1,
+.mmmm-entry-title,
+.h2 {
+    color: #0083C2;
+  font-size: 2.25rem;
+  line-height: 2.375rem;
+  margin: 0.5em 0px 0.3em;
+}
+
+.mmmm-entry-title {
+  margin-top: 0;
+}
+
+/*logged in header link*/
+#mmm_user_log_in {
+  position: absolute;
+  right: 10%;
+  top: 10px;
+}
+
+#mmm_user_log_in a {
+  color: #69a539;
+}
+
+#mmm_user_log_in .button {
+  color: #ffffff;
+}
+
+/*end header*/
+
+/* Date select styles */
+#date_select {
+  display: inline-block;
+  padding-top: 4px;
+}
+
+#date_select select {
+  display: inline-block;
+}
+
+/* message on mqc page identity check */
+#mqc-userprofile-security-check {
+  border: 1px solid #eeeeee;
+  background: #eeeeee;
+  padding: 8px 10px;
+  border-radius: 8px;
+  position: relative;
+  margin: 0 0 1.5em;
+}
+.swpm-login-widget-logged.reloaded {
+ /* color: red;*/
+}
+.swpm-login-widget-logged #mqc-userprofile-security-check{
+  margin: 0;
+}
+
+#mqc-userprofile-security-check p {
+  margin-bottom: 0;
+}
+
+.swpm-login-widget-logged #mqc-userprofile-security-check p {
+  text-align: center;
+}
+.name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Login form CSS */
+.swpm-login-widget-form br {
+  display: none;
+}
+.swpm-login-widget-form input[type=text],
+.swpm-login-widget-form input[type=password] {
+  width: 100%;
+  font-size: 120%;
+  border-radius: 3px;
+  padding: 3px;
+  border-width: 1px;
+  display: block;
+}
+
+.swpm-login-widget-form button {
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+
+.swpm-login-widget-form .small {
+  font-size: 80%;
+}
+
+.swpm-login-widget-form .text-muted {
+  color: #999;
+}
+
+.swpm-login-widget-form .text-right {
+  text-align: right;
+}
+
+
+.swpm-login-widget-action-msg{
+  font-weight: bold;
+}
+.swpm-logged-label{
+  font-weight: bold;
+  position: relative;
+}
+.mmm_message_red {
+  padding-left: 40px;
+  background-image:url("../images/alert-red.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.mmm_message_green,
+.mmm_update {
+  padding-left: 40px;
+    background-image:url("../images/alert-green.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+/*user profile callouts*/
+.swpm-login-widget-logged {
+    vertical-align: top;
+}
+.align-right {
+  display: inline-block;
+  text-align: right;
+}
+.profile_link,
+.cancel {
+  font-weight: normal;
+
+    color:#69A539;
+   text-decoration: underline;
+    cursor: pointer;
+}
+.profile_link:hover,
+.cancel:hover {
+   font-weight: normal;
+    text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+.registration-form-content .swpm-registration-widget-form,
+.swpm-login-widget-logged .logged_in_block,
+.registration-form-content .help,
+.help {
+    /*width: 45%;*/
+    display: inline-block;
+
+      vertical-align: top;
+
+}
+
+.registration-form-content .help,
+.help {
+   padding-left: 40px;
+    background-image:url("../images/envelope-icon.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+/* Password reset form CSS */
+.swpm-password-reset-widget-form table{
+    border: none;
+}
+.swpm-password-reset-widget-form tr{
+    border: none;
+}
+.swpm-password-reset-widget-form td{
+    border: none;
+}
+.asterisk {
+  font-size: 1.6em;
+}
+
+.ncoa_userprofile_list {
+  margin-bottom: 25px;
+}
+.swpm-password-reset-widget-form .ncoa_userprofile_list,
+#swpm-editprofile-form .ncoa_userprofile_list,
+.swpm-registration-widget-form .ncoa_userprofile_list{
+
+   list-style: none;
+   padding-left: 0;
+}
+#swpm-editprofile-form .ncoa_userprofile_list {
+  width: 100%;
+}
+#swpm-editprofile-form {
+  position: relative;
+}
+.profile_link {
+  font-weight: normal;
+}
+#swpm-editprofile-form .ncoa_userprofile_list .logged .logged,
+.logged {
+  position: relative;
+}
+
+.ncoa_userprofile_list .link {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  font-weight: normal;
+  display: none;
+}
+#swpm-editprofile-form  .submit {
+  margin-top: 10px;
+  margin-right: 15px ;
+}
+.swpm-login-widget-logged h2 {
+  text-align: center;
+}
+/* Registration form CSS */
+.swpm-registration-widget-form td{
+    min-width: 100px;
+}
+
+.swpm-restricted{
+    font-weight: bold;
+    color:red;
+}
+.swpm-select-box-left{
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+/* Edit profile form CSS */
+.swpm-account-delete-button{
+    text-align: center;
+}
+.swpm-account-delete-button a{
+    color: red !important;
+}
+
+
+/*///avatar*/
+.avatars_chooser {
+  text-align: center;
+  padding: 0px 0 30px;
+}
+.main_avatar {
+  display: inline-block;
+  width: 244px;
+  text-align: center;
+}
+
+.main_avatar  .link  {
+  position: absolute;
+  bottom: 4px;
+ left: 28px;
+}
+.main_avatar .change_avatar{
+  position: absolute;
+  bottom: 10px;
+  left: 33%;
+   display: inline-block;
+}
+#avatars {
+  width: 100%;
+  position: relative;
+}
+
+#swpm-editprofile-form  .main_avatar{
+  display: none;
+  margin-top: 20px;
+}
+#swpm-editprofile-form  .main_avatar #change_avatar {
+  position: absolute;
+  bottom: 0px;
+  left: 70px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+#swpm-editprofile-form  .main_avatar .link #cancel_link {
+  /*  position: absolute;*/
+/*  bottom: 5px;
+  left: 25px;
+  display: inline-block;*/
+  margin-bottom: 0;
+}
+
+  #avatars input:hover {
+    cursor:pointer;
+  }
+
+.avatar {
+  cursor: pointer;
+  margin: 20px 5px;
+  /* margin: 5px; */
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 110px;
+}
+.avatar:hover,
+.avatar.fade:hover {
+   opacity:1;
+   cursor: pointer;
+}
+.avatar.fade {
+  opacity: 0.5;
+}
+.avatar img {
+  z-index: 100;
+  vertical-align: top;
+  width: 110px;
+  /* margin-top: -14px; */
+
+}
+
+.avatar img:hover {
+  cursor:pointer;
+}
+.avatar input .chosen {
+width: 245px;
+ height: 245px;
+}
+
+.avatars_chooser .avatar input[type=radio] {
+ opacity: .0;
+ z-index: 500;
+display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+ width: 110px;
+height: 110px;
+}
+
+.hide_avatars,
+#cancel_link.hide_avatars {
+  display: none;
+}
+
+/* javascript off overrides*/
+.no_js {
+  padding-top: 20px;
+  opacity: 1 !important;
+  display: inline-block !important;
+  margin: 15px;
+}
+
+#avatars_content #avatars{
+  margin-top: 20px;
+}
+#avatars_content input[type=radio] {
+  float: left;
+   display: inline-block !important;
+  opacity: 1 !important;
+
+  width: auto;
+  height: auto;
+  z-index: 0;
+}
+
+/*aria styles*/
+
+#avatars  fieldset {
+  border: 0 none;
+
+}
+#avatars fieldset legend,
+
+.avatar > label
+ {
+  display: none;
+}
+
+/* errors */
+input.error,
+textarea.error,
+select.error {
+  border-color: #c60f13 !important;
+  background-color: rgba(198, 15, 19, 0.1) !important;
+}
+
+.consent-error{
+  color: #c60f13 !important;
+}
+.label_error,
+.error_msg{
+  color: #c60f13;
+}
+
+/*tooltip */
+.mmmm-pwd-tooltip{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.mmm_tooltip_def{
+  position: absolute;
+  background-color: #ffffff;
+  padding: 0px;
+  box-shadow: #999999 0px 0px 10px;
+  border: 1px solid #666666;
+  width: 300px;
+  height: auto;
+  /*z-index: 1000;*/
+  z-index: 10;
+  border-radius: 4px;
+  margin-top: 34px;
+}
+.mmm_tooltip_def h4{
+  background: #B7D4E5;
+  padding: 5px;
+  margin: 0px;
+  margin: 1px !important;
+  border-radius-top-left: 4px;
+  border-radius-top-right: 4px;
+  font-size: .8em !important;
+  color: #041019;
+  position: relative;
+}
+.mmm_tooltip_def_blue_arrow{
+  position: absolute;
+  top: -19px;
+  background: url("../images/tool_tip_blue_arrow.png") no-repeat;
+  /*left: 135px;*/
+  left: 2px;
+  height: 30px;
+  width: 30px;
+  }
+.mmm_tooltip_def_white_arrow{
+  position: absolute;
+  background: url("../images/tool_tip_white_arrow.png") no-repeat;
+  left: 135px;
+  height: 30px;
+  width: 30px;
+  display: none;
+}
+.mmm_tooltip_def_close{
+  float: right;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  background: url("../images/tool_tip_close.png") no-repeat;
+}
+.mmm_tooltip_def p {
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  font-size: .8em;
+  color: #041019;
+}
+
+/* subscription */
+.subsc_item{
+  margin-bottom: 0.5em;
+}
+.subsc_button{
+  margin-top: 2em;
+}
+.subsc_hide{
+  display: none;
+}
+
+/* jquery UI */
+
+/*custom styles for the modal dialog window*/
+ .ui-dialog p {
+  color: #414042;
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 20px;
+  line-height: 1.25rem;
+  position: relative;
+  margin-bottom: 1.4em;
+}
+
+.ui-dialog {
+  -webkit-box-shadow: 0px 4px 16px 2px rgba(50, 50, 50, 0.6);
+  -moz-box-shadow:    0px 4px 16px 2px rgba(50, 50, 50, 0.6);
+  box-shadow:         0px 4px 16px 2px rgba(50, 50, 50, 0.6);
+}
+
+
+.ui-widget-overlay {
+  background: #004b8d !important;
+  opacity: .90 !important;
+  filter: Alpha(Opacity=90) !important;
+  z-index: 800;
+}
+#ncoa-mmmm-message{
+  padding: 0.5em 1rem 0;
+}
+.ui-widget-content {
+  padding: 0;
+  background-image: none;
+  background-color:#ffffff;
+  color: #362b36;
+  color: #414042;
+  z-index: 850;
+}
+.ui-dialog-titlebar {
+  padding: 0.5em 1rem 0.7em !important
+}
+.ui-dialog .ui-dialog-titlebar-close {
+  right: 20px;
+  top: 20px;
+  border: none;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default,
+ .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  background-image: none;
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button,
+.ui-dialog .ui-dialog-title {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 22px;
+  line-height: 1.375rem;
+  margin: 0;
+}
+.ui-dialog .ui-dialog-title {
+  color: #414042;
+  font-weight: 500;
+  min-height: 12px;
+}
+
+.ui-button-text-only .ui-button-text {
+  /*
+  -moz-box-shadow: inset 0px -5px 14px -7px #3e7327;
+  -webkit-box-shadow: inset 0px -5px 14px -7px #3e7327;
+  box-shadow: inset 0px -5px 14px -7px #3e7327;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77b55a), color-stop(1, #72b352));
+  background:-moz-linear-gradient(top, #77b55a 5%, #72b352 100%);
+  background:-webkit-linear-gradient(top, #77b55a 5%, #72b352 100%);
+  background:-o-linear-gradient(top, #77b55a 5%, #72b352 100%);
+  background:-ms-linear-gradient(top, #77b55a 5%, #72b352 100%);
+  background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352',GradientType=0);
+  background-color: #76b840;
+  */
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  border:1px solid #333333;
+  display:inline-block;
+  cursor:pointer;
+  padding: 5px 16px 7px;
+  text-decoration: none;
+  /*
+  color: #ffffff;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  text-shadow: 1px 1px 0px #5b8a3c;
+  */
+}
+.ui-widget-header {
+  background-color: #ffffff;
+  border: none;
+  background-image: none;
+  border-radius: 0;
+}
+.ui-corner-all {
+  border-radius:0;
+}
+
+.ui-button .ui-state-default .ui-state-focus .ui-state-hover  .ui-state-active {
+  border: none;
+  background-image: none;
+}
+.ui-dialog hr {
+  clear: both;
+}
+.ui-state-default .ui-icon {
+  display: none;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: none;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color:#ffffff;
+  font-weight: bold;
+  color: #414042;
+  border: none;
+}
+.ui-dialog-titlebar .ui-button{
+  background-image: url("../images/close-button.png") !important;
+  height: 22px;
+  text-indent: -10000px;
+  width: 22px;
+  float: right;
+  display: block;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    margin-top: 0;
+    padding: 0.5em 1em 0.5em 0.4em;
+}
+
+/* tabs */
+.ncoa_membership_tabs{
+  margin: 20px 0 0 5px;
+  padding: 0;
+}
+.ncoa_membership_tabs li{
+  margin: 0;
+  padding: 5px 0;
+  float: left;
+  list-style: none;
+}
+.ncoa_membership_tabs li a{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  color: #5e5e5f;
+  padding: 8px 15px 6px;
+  margin-right: 5px;
+}
+
+.ncoa_membership_tabs .active{
+  background-color: #fff;
+  border: 1px solid #999999;
+  border-bottom: 1px solid #ffffff;
+  color: #0083c2;
+  font-weight: 800;
+}
+
+.ncoa_membership_tabs_bar{
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #999999;
+  margin-top: -4px;
+  margin-bottom: 30px;
+}
+/*new password validation */
+.hide-last-name,
+#ln-entry {
+  display: none;
+
+}
+.show-last-name {
+  display: inline-block !important;
+}
+#pw-reset-name-check{
+  display: none;
+}
+ .mmm-form-group {
+  position: relative;
+}
+.mmm-form-group.password-reset {
+  padding-bottom: 18px;
+}
+.ncoa_userprofile_form .mmm-form-group {
+  position: relative;
+  padding-bottom: 13px;
+}
+.ncoa_userprofile_form .mmm-form-group.password {
+ padding-bottom: 18px;
+}
+.mmm-form-group .password-error,
+.mmm-form-group .password_re-error,
+.ncoa_userprofile_form .mmm-form-group .password-error,
+.ncoa_userprofile_form .mmm-form-group .password_re-error,
+.password-check-span .password-error,
+.password-re-check-span .password_re-error{
+  display: inline-block;
+  margin: 0;
+  color:#C60F13;
+  left: 0;
+  bottom: 0;
+  font-size: 0.8em;
+ /* font-style: italic;*/
+  position: absolute;
+
+}
+#helper-text-dialog {
+  position: absolute;
+  background-color: #FFF;
+  padding: 0px;
+  box-shadow: 0px 0px 10px #999;
+  border: 1px solid #666;
+  width:430px;
+  height: auto;
+  z-index: 1000;
+  display: none;
+  border-radius: 4px;
+  top: -34px;
+  left: 50%;
+  display: block;
+}
+
+
+.tool_tip_white_arrow_left {
+    position: absolute;
+    z-index: 500;
+    background: transparent url("../images/tool_tip_white_arrow_left.png") no-repeat scroll 0% 0%;
+    left: -30px;
+    top: 60px;
+    height: 30px;
+    width: 30px;
+
+}
+.tool_tip_white_arrow_up {
+  display:none;
+}
+#helper-text-dialog {
+  padding: 1.125em;
+  padding: 18px;
+}
+#helper-text-dialog h4 {
+  margin: 0;
+}
+#helper-text-dialog ul {
+  padding-left: 4px;
+  list-style: none;
+  color: #414042;
+font-family: "Roboto",Arial,sans-serif;
+font-weight: 400;
+  font-size:0.875rem;
+}
+.helper-text {
+ list-style:none;
+   position: relative;
+  display: block;
+  margin-top: 6px;
+
+  line-height: 22px;
+  color: #808080;
+
+}
+
+
+.password-check,
+.password_re-check {
+  /*
+  display: inline-block;
+  height: 24px;
+  left: 3px;
+  position: relative;
+  top: 6px;
+  width: 22px;
+  */
+  height: 24px;
+  position: absolute;
+  right: 3px;
+  top: 25px;
+  width: 22px;
+}
+.mmm-form-group.password-reset .password-check,
+.mmm-form-group.password-reset .password_re-check {
+    right: 3px;
+  top: 0;
+}
+.password-check-span,
+.password-re-check-span {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 18px;
+}
+
+.password-check.pw_valid,
+.password_re-check.pw_valid {
+
+  background: transparent url("../images/checkmark-green.gif") no-repeat scroll 0px 0px;
+
+}
+.password-check.pw_notvalid,
+.password_re-check.pw_notvalid {
+  background: transparent url("../images/error-red.gif") no-repeat scroll 0px 0px;
+
+}
+.helper-text li {
+  position: relative;
+  text-indent: 23px;
+   background: transparent url("../images/black-bullet.png") no-repeat scroll 0px 2px;
+}
+.helper-text li.notvalid {
+  text-indent: 25px;
+
+  background: transparent url("../images/error-red.gif") no-repeat scroll 0px 0px;
+
+}
+.helper-text li.valid {
+  text-indent: 25px;
+  color: #1fd34a;
+  background: transparent url("../images/checkmark-green.gif") no-repeat scroll 0px 0px;
+
+}
+.valid input {
+  border: 2px solid #1fd34a;
+}
+
+/*manage php */
+h4 > small > a, h4 > .small {
+  font-weight: normal;
+}
+[data-editableform] > p {
+  margin: 0 0 0.25em 0;
+}
+
+[data-editableform] > p > label {
+  display: inline-block;
+  width: 150px;
+  color: #888;
+}
+
+[data-editableform] > p > input[type="text"]  {
+  display: inline-block;
+  width: 250px;
+  margin: 0;
+}
+
+/** Media Queries
+ * -------------------------
+ */
+
+ /* mobile  CSS */
+@media screen and (max-width: 484px) {
+
+  #helper-text-dialog {
+    left: 0;
+    top: 60px;
+    width: 100%;
+  }
+  .helper-text {
+    padding-left: 0;
+    left: -5px;
+  }
+  .helper-text li,
+  .helper-text li.notvalid,
+  .helper-text li.valid{
+    text-indent: 0;
+    padding-left:29px;
+  }
+  .helper-text li.notvalid {
+  background: transparent url("../images/error-red.gif") no-repeat scroll 0px 4px;
+  }
+  .helper-text li.valid {
+  background: transparent url("../images/checkmark-green.gif") no-repeat scroll 0px 4px;
+  }
+.tool_tip_white_arrow_up {
+    position: absolute;
+    z-index: 500;
+   background: transparent url("../images/tool_tip_white_arrow_up.png") no-repeat scroll 0% 0%;
+   left: 43%;
+    top: -19px;
+    height: 30px;
+    width: 30px;
+
+}
+.tool_tip_white_arrow_left {
+  display: none;
+}
+.password-check, .password_re-check {
+  top: -25px;
+  left: 292px;
+}

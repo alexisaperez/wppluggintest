@@ -1,0 +1,19 @@
+{
+  "name": "tammantech/wppoc",
+  "description": "WordPress Proof of Concept",
+  "keywords": ["wordpress", "plugin", "roots"],
+  "homepage": "https://tammantech.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Perez",
+      "email": "aperez@tammantech.com",
+      "homepage": "https://tammantech.com"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": "v1.0.6"
+  }
+}
